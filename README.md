@@ -4,22 +4,6 @@ This repository contains the full experimental code used to produce the results 
 The experiments study how different data distribution strategies across federated clients affect the fairness of a trained binary classifier, and whether a pre-processing repair technique (Random Repair via Optimal Transport) can mitigate observed bias.
 
 
-**Table of Contents**
-
-1. Project Overview
-2. Repository Structure
-3. Requirements and Installation
-4. Dataset Setup
-5. Code Architecture
-   * Functions.py
-   * Main_code.ipynb
-6. Key Configuration Parameters
-7. Experiments
-8. Fairness Metrics
-9. Output Files
-10. Reproducing Results
-11. Notes and Troubleshooting
-
 **Project Overview**
 The code trains a binary income classifier (predicting whether income exceeds $50K/year) on the UCI Adult dataset using both centralised and federated learning (via TensorFlow Federated). The core research questions are:
 
@@ -49,6 +33,6 @@ This project uses the UCI Adult (Census Income) dataset.
 
 Download from the UCI ML Repository https://archive.ics.uci.edu/dataset/2/adult
 
-**Code Architecture**
+
 
 
