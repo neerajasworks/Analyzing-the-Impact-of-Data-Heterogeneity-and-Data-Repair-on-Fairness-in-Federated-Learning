@@ -36,6 +36,8 @@ Python 3.8–3.10 is recommended (TensorFlow Federated has strict version constr
 
 Core Dependencies
 
-'pip install tensorflow==2.14.*
+```python
+pip install tensorflow==2.14.*
 pip install tensorflow-federated==0.86.*
-pip install numpy pandas matplotlib scipy scikit-learn POT'
+pip install numpy pandas matplotlib scipy scikit-learn POT
+```
