@@ -30,6 +30,7 @@ The code trains a binary income classifier (predicting whether income exceeds $5
 Five main experiments are provided, each varying the data distribution mode and client selection strategy. Each experiment is repeated 50 times and results are aggregated with 95% confidence intervals.
 
 **Requirements and Installation**
+
 Python Version
 
 Python 3.8–3.10 is recommended (TensorFlow Federated has strict version constraints).
@@ -41,3 +42,13 @@ pip install tensorflow==2.14.*
 pip install tensorflow-federated==0.86.*
 pip install numpy pandas matplotlib scipy scikit-learn POT
 ```
+
+**Dataset Setup**
+
+This project uses the UCI Adult (Census Income) dataset.
+
+Download from the UCI ML Repository https://archive.ics.uci.edu/dataset/2/adult
+
+**Code Architecture**
+
+
