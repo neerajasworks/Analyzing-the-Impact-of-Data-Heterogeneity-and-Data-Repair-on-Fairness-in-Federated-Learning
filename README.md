@@ -31,9 +31,11 @@ Five main experiments are provided, each varying the data distribution mode and 
 
 **Requirements and Installation**
 Python Version
+
 Python 3.8–3.10 is recommended (TensorFlow Federated has strict version constraints).
 
 Core Dependencies
-pip install tensorflow==2.14.*
+
+'pip install tensorflow==2.14.*
 pip install tensorflow-federated==0.86.*
-pip install numpy pandas matplotlib scipy scikit-learn POT
+pip install numpy pandas matplotlib scipy scikit-learn POT'
